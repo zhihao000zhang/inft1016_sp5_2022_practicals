@@ -70,3 +70,8 @@ def foo():
 | :-- | --- | :-: |
 | ---- | ---- | ---- |
 | 4 | black | 7 |
+
+'''
+def my_function():
+  print("Hello from a function")
+'''
