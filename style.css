@@ -1,0 +1,111 @@
+/*@import "styles.css" print, screen;  
+@import url("styles.css") tty;
+<link rel = "stylesheet" type="text/css" href="style.css" media="screen" title="Basic" />
+    h1, h2, p {
+        padding: 0;
+        margin: 10pt 0 2pt 0;
+        font: 1em/1.33 Verdana, sans-serif;
+   }  
+    h1 {
+        font-size: 1.33em;
+}
+    h2 {
+        font-size: 1.17em;
+}
+    h1, h2 {
+        color: red;
+}
+    p {
+        margin: 0 0 0 0;
+        padding: 0;
+        text-indent: 5em;
+}
+    p:first-of-type {
+        font-size: 0.17em;
+        line-height: 1.33;
+        font-family: Verdana, sans-serif;
+}
+    p.first {
+        text-indent: 0em;
+}
+    p + p {
+        text-indent: 5em;
+}
+    body {  
+        background: white url(image.gif) repeat fixed top left;  
+}
+media="screen, print,tty"  
+
+@media screen, print, projector {  
+    body {  
+      color: black;  
+      background-color: yellow;  
+    }  
+  }
+  @media print {  
+      div#navigation {  
+        display: none;  
+      }  
+    } 
+*/
+
+base-font-color {
+    color: rgb(131 148 150)
+ }
+ secondary-font-color {
+     color:rgb(   88 110 117 )
+ }
+ emphasised-font  {
+     color:rgb(       147 161 161)
+ }
+
+ c-background-color { 
+     color:rgb(    0  43  54)
+ }
+
+ c-background-highlights{
+     color:rgb(7 54 66)
+ }
+ c-yellow      {
+     color:rgb(181 137   0 )
+ }
+ c-orange    {
+     color:rgb(  203  75  22  )
+ }
+ c-red        {
+     color:rgb( 220  50  47  )
+ }
+
+ c-magenta   {
+     color:rgb(  211  54 130 )
+ }
+
+ c-violet     {
+     color:rgb( 108 113 196 )
+ }
+ c-blue        {
+     color:rgb(38 139 210 )
+ }
+ c-cyan        {
+     color:rgb(42 161 152 )
+ }
+ c-green       {
+     color:rgb(133 153   0 )
+ }
+
+    body {  
+        background: rgb(0 43 54) url(image.gif) repeat fixed top left;  
+}
+    footer,header{
+     color:rgb(7 54 66)   
+    }
+    main, footer, header{
+        color: rgb(   88 110 117 )
+    }
+    link{
+        color: rgb(  211  54 130 )
+    }
+    p{
+        border:3xp solid yellow;
+
+    }
